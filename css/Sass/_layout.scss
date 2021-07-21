@@ -1,0 +1,47 @@
+section{
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    font-size: 18px;
+    transition: .2s ease;
+
+    &:focus{
+        outline: none;
+        width: 420px;
+    }
+}
+
+.buscador{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-search{
+    position: absolute;
+    margin-top: 40px;
+    color: $gray;
+    right: 420px;
+    transition: 0.2s ease-in-out;
+
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+::placeholder {
+    color: $gray;
+    opacity: 0.8;
+}
