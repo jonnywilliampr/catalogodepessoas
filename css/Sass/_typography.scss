@@ -4,3 +4,9 @@ h1, h2, h3, h4, h5, h6, p, a{
     font-weight: 400;
 }
 
+h2{
+    color: $gray;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 16px;
+}
