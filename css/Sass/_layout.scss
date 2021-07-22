@@ -65,6 +65,10 @@ input{
     background-color: $white;
     align-items: center;
     justify-content: center;
+
+    &.invisivel{
+        display: none;
+    }
 }
 
 img{

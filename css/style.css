@@ -738,6 +738,10 @@ input:focus {
           justify-content: center;
 }
 
+.persona.invisivel {
+  display: none;
+}
+
 img {
   border-radius: 200px;
 }
