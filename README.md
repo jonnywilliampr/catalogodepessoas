@@ -1,4 +1,4 @@
-# Catalogo de Pessoas
+# Catálogo de Pessoas
 
 ###
 ## Descrição
